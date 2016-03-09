@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/realTimeDataVisualizationItem"
+            android:checked="true"
+            android:title="Real-Time data visualization" />
+        <item
+            android:id="@+id/historicalDataVisualizationItem"
+            android:title="Historical data visualization" />
+        <item
+            android:id="@+id/kpiItem"
+            android:title="KPI" />
+        <item
+            android:id="@+id/settingsItem"
+            android:title="Settings" />
+
+    </group>
+</menu>

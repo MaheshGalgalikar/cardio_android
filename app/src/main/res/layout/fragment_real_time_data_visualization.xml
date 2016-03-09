@@ -1,0 +1,105 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="md.fusionworks.android.cardio.fragments.RealTimeDataVisualizationFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardPreventCornerOverlap="true"
+            card_view:cardUseCompatPadding="true">
+
+            <md.fusionworks.android.cardio.views.BaseLineChart
+                android:id="@+id/tempGraph"
+                android:layout_width="match_parent"
+                android:layout_height="135dp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardPreventCornerOverlap="true"
+            card_view:cardUseCompatPadding="true">
+
+            <md.fusionworks.android.cardio.views.BaseLineChart
+                android:id="@+id/bp1Graph"
+                android:layout_width="match_parent"
+                android:layout_height="135dp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardPreventCornerOverlap="true"
+            card_view:cardUseCompatPadding="true">
+
+            <md.fusionworks.android.cardio.views.BaseLineChart
+                android:id="@+id/heartBeatGraph"
+                android:layout_width="match_parent"
+                android:layout_height="135dp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardPreventCornerOverlap="true"
+            card_view:cardUseCompatPadding="true">
+
+            <md.fusionworks.android.cardio.views.BaseLineChart
+                android:id="@+id/ecgGraph"
+                android:layout_width="match_parent"
+                android:layout_height="135dp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardPreventCornerOverlap="true"
+            card_view:cardUseCompatPadding="true">
+
+            <md.fusionworks.android.cardio.views.BaseLineChart
+                android:id="@+id/cvGraph"
+                android:layout_width="match_parent"
+                android:layout_height="135dp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardPreventCornerOverlap="true"
+            card_view:cardUseCompatPadding="true">
+
+            <md.fusionworks.android.cardio.views.BaseLineChart
+                android:id="@+id/hrvGraph"
+                android:layout_width="match_parent"
+                android:layout_height="135dp" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>
